@@ -1,0 +1,25 @@
+{
+	"name": "metacoin-box",
+	"version": "2.1.0",
+	"description": "",
+	"directories": {
+		"test": "test"
+	},
+	"scripts": {
+		"dev": "lite-server -c ./bs-config.js",
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"migrate": "bash scripts/migrate-and-setup.sh",
+		"d": "source .env && tronbox migrate --network nile"
+	},
+	"originalAuthors": "truffle-box",
+	"author": {
+		"name": "Francesco Sullo",
+		"email": "francesco@sullo.co"
+	},
+	"license": "MIT",
+	"devDependencies": {
+		"chalk": "^2.4.1",
+		"lite-server": "^2.5.4"
+	},
+	"dependencies": {}
+}
